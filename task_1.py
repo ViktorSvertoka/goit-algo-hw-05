@@ -50,9 +50,9 @@ H.insert("orange", 20)
 H.insert("banana", 30)
 
 print("Вся таблиця до видалення елемента:\n", H)
-print(H.get("apple"))  # Виведе: 10
-print(H.get("orange"))  # Виведе: 20
-print(H.get("banana"))  # Виведе: 30
+print(H.get("apple"))
+print(H.get("orange"))
+print(H.get("banana"))
 
 H.delete("orange")
 

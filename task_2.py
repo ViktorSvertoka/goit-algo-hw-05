@@ -32,9 +32,7 @@ def binary_search(arr, target):
 arr = [0.5, 1.2, 3.3, 4.4, 5.5, 8.8]
 target = 4.4
 iterations, upper_bound = binary_search(arr, target)
-print(
-    f"Iterations: {iterations}, Upper bound: {upper_bound}"
-)  # Виведе: Iterations: 3, Upper bound: 4.4
+print(f"Iterations: {iterations}, Upper bound: {upper_bound}")
 
 
 # Приклад 2:
@@ -42,9 +40,7 @@ print(
 arr = [10.5, 20.5, 30.5, 40.5, 50.5]
 target = 25.5
 iterations, upper_bound = binary_search(arr, target)
-print(
-    f"Iterations: {iterations}, Upper bound: {upper_bound}"
-)  # Виведе: Iterations: 3, Upper bound: 30.5
+print(f"Iterations: {iterations}, Upper bound: {upper_bound}")
 
 
 # Приклад 3:
@@ -52,6 +48,4 @@ print(
 arr = [-5.0, -3.3, -1.1, 0.0, 2.2, 4.4]
 target = -4.0
 iterations, upper_bound = binary_search(arr, target)
-print(
-    f"Iterations: {iterations}, Upper bound: {upper_bound}"
-)  # Виведе: Iterations: 2, Upper bound: -3.3
+print(f"Iterations: {iterations}, Upper bound: {upper_bound}")
